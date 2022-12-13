@@ -161,7 +161,8 @@ function maxAndMin(arr1,arr2){
     let set2 = new Set(arr2)
     arr1 = Array.from(set1)
     arr2 = Array.from(set2)
-    let foundMin = 1.797693134862315E+308
+    // let foundMin = 1.797693134862315E+308
+    let foundMin = Infinity
     let foundMax = 0
 
     if (arr1.length > arr2.length) {
